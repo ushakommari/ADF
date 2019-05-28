@@ -1,0 +1,17 @@
+{
+	"name": "SqlServerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "EDW",
+			"type": "LinkedServiceReference"
+		},
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": {
+				"value": "@dataset().TableName",
+				"type": "Expression"
+			}
+		}
+	}
+}
