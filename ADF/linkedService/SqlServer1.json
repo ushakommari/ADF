@@ -1,0 +1,15 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DESKTOP-0L17MM0;initial catalog=SampleTest;user id=sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzNjNjOGE1MC01NmFkLTQ0YWMtYTU2Yy1lZjM2NWE3YTk5ZDMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "OnpremSql",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
