@@ -1,0 +1,11 @@
+{
+	"name": "SqlServerTable13",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "EDW",
+			"type": "LinkedServiceReference"
+		},
+		"type": "SqlServerTable",
+		"schema": []
+	}
+}
