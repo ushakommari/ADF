@@ -60,7 +60,7 @@
 								"sink": {
 									"type": "SqlServerSink"
 								},
-								"enableStaging": true
+								"enableStaging": false
 							},
 							"inputs": [
 								{
