@@ -6,12 +6,6 @@
 			"type": "LinkedServiceReference"
 		},
 		"type": "SqlServerTable",
-		"schema": [],
-		"typeProperties": {
-			"tableName": {
-				"value": "@dataset().TableName",
-				"type": "Expression"
-			}
-		}
+		"schema": []
 	}
 }
