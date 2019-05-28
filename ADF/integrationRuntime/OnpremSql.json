@@ -1,0 +1,6 @@
+{
+	"name": "OnpremSql",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
